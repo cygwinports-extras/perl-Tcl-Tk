@@ -1,0 +1,64 @@
+perl-Tcl-Tk
+------------------------------------------
+The Tcl::Tk extension (not to be confused with the 'native' perl5 
+Perl/Tk extension) provides a raw but complete interface to the whole of 
+Tk via the Tcl extension.
+
+Runtime requirements:
+  perl-5.8.8-4
+  perl-Tcl-0.95-1
+  tk-8.4.16-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  cygport-0.3.7-1
+  make-3.81-1
+  perl-5.8.8-4
+
+Canonical website:
+  http://search.cpan.org/dist/Tcl-Tk/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/V/VK/VKON/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Tcl-Tk-0.97-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Tcl-Tk-0.97-X.cygport all
+
+This will create:
+  /usr/src/perl-Tcl-Tk-0.97-X-src.tar.bz2
+  /usr/src/perl-Tcl-Tk-0.97-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Tcl-Tk.sh
+  /usr/lib/perl5/vendor_perl/5.8/Tcl/Tk.pm
+  /usr/lib/perl5/vendor_perl/5.8/Tcl/Tk/Widget/Balloon.pm
+  /usr/lib/perl5/vendor_perl/5.8/Tcl/Tk/Widget/Text.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Tcl/Tk/.packlist
+  /usr/share/doc/Cygwin/perl-Tcl-Tk-0.97.README
+  /usr/share/doc/perl-Tcl-Tk-0.97/ChangeLog
+  /usr/share/doc/perl-Tcl-Tk-0.97/Changes
+  /usr/share/doc/perl-Tcl-Tk-0.97/README
+  /usr/share/doc/perl-Tcl-Tk-0.97/TODO
+  /usr/share/man/man3/Tcl.Tk.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Tcl-Tk.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.97-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

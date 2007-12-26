@@ -1,0 +1,6 @@
+category: Perl Tcl
+requires: perl perl-Tcl tcl tk
+sdesc: "Perl Tcl::Tk extension"
+ldesc: "The Tcl::Tk extension (not to be confused with the 'native' perl5
+Perl/Tk extension) provides a raw but complete interface to the whole of
+Tk via the Tcl extension."
